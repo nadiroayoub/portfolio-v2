@@ -1,0 +1,19 @@
+body {
+  font-family: $font-roboto;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.section__title {
+  position: absolute;
+  left: -50px;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 2;
+  &::after {
+    content: ".";
+  }
+}
