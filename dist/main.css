@@ -82,7 +82,9 @@ body {
 .about {
   margin: 4rem 0; }
   .about__content {
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6; }
 
 .projects {
   width: 100%; }
