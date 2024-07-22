@@ -16,8 +16,13 @@
 }
 .about {
   margin: 4rem 0;
+  // &__content {
+  //   font-size: 1.4rem;
+  // }
   &__content {
     font-size: 1.4rem;
+    margin-bottom: 1.5rem; // Add spacing between paragraphs
+    line-height: 1.6; // Optional: Improve readability
   }
 }
 .projects {
