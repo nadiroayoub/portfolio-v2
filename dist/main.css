@@ -123,11 +123,13 @@ body {
         cursor: pointer;
         color: inherit;
         opacity: 0.9; }
-        .projects__list .project-item .project-details .project-link:hover > .project-index::after {
+        .projects__list .project-item .project-details .project-link.invalid-link {
+          cursor: default; }
+        .projects__list .project-item .project-details .project-link:not(.invalid-link):hover > .project-index::after {
           width: 0;
           left: 2.2rem;
           opacity: 0; }
-        .projects__list .project-item .project-details .project-link:hover > .project-title::after {
+        .projects__list .project-item .project-details .project-link:not(.invalid-link):hover > .project-title::after {
           width: 100%;
           opacity: 1; }
         .projects__list .project-item .project-details .project-link .project-index {
