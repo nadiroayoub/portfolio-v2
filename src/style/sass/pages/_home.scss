@@ -65,12 +65,15 @@
           cursor: pointer;
           color: inherit;
           opacity: 0.9;
-          &:hover > .project-index::after {
+          &.invalid-link {
+            cursor: default;
+          }
+          &:not(.invalid-link):hover > .project-index::after {
             width: 0;
             left: 2.2rem;
             opacity: 0;
           }
-          &:hover > .project-title::after {
+          &:not(.invalid-link):hover > .project-title::after {
             width: 100%;
             opacity: 1;
           }
@@ -136,9 +139,6 @@
           .project-source {
             opacity: 0.5;
             transition: all 0.3s ease-in-out;
-            // &:hover {
-            //   opacity: 1;
-            // }
             &:not(.invalid-link):hover,
             &:not(.invalid-link):hover {
               opacity: 1;
