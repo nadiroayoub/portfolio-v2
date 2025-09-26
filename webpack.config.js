@@ -31,8 +31,15 @@ module.exports = {
       },
       // Sass css and scss files
       {
-        test: /\.(css|sass|scss)$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader, // OR 'style-loader'
+          "css-loader",
+          {
+            loader: "sass-loader",
+            options: { implementation: require("sass") },
+          },
+        ],
       },
       // Image files
       {

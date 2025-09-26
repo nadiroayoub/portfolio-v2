@@ -16,17 +16,7 @@
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _public_images_un_optimized_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../public/images/_un-optimized/logo.svg */ \"./src/public/images/_un-optimized/logo.svg\");\n/* harmony import */ var _style_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/sass/main.scss */ \"./src/style/sass/main.scss\");\n\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  AOS.init();\n});\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var links = document.querySelectorAll(\".project-demo, .project-source, .project-link\");\n  links.forEach(function (link) {\n    if (link.getAttribute(\"href\") === null) {\n      link.classList.add(\"invalid-link\");\n    }\n  });\n});\n\n//# sourceURL=webpack://ayoubnadirv1/./src/app/index.js?");
-
-/***/ }),
-
-/***/ "./src/style/sass/main.scss":
-/*!**********************************!*\
-  !*** ./src/style/sass/main.scss ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://ayoubnadirv1/./src/style/sass/main.scss?");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _public_images_un_optimized_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../public/images/_un-optimized/logo.svg */ \"./src/public/images/_un-optimized/logo.svg\");\n/* harmony import */ var _style_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/sass/main.scss */ \"./src/style/sass/main.scss\");\n\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  AOS.init();\n});\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var links = document.querySelectorAll(\".project-demo, .project-source, .project-link\");\n  links.forEach(function (link) {\n    if (link.getAttribute(\"href\") === null) {\n      link.classList.add(\"invalid-link\");\n    }\n  });\n});\n\n//# sourceURL=webpack://ayoubnadirv1/./src/app/index.js?\n}");
 
 /***/ }),
 
@@ -36,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"images/e12e84157d2b7308b42c.svg\";\n\n//# sourceURL=webpack://ayoubnadirv1/./src/public/images/_un-optimized/logo.svg?");
+eval("{module.exports = __webpack_require__.p + \"images/e12e84157d2b7308b42c.svg\";\n\n//# sourceURL=webpack://ayoubnadirv1/./src/public/images/_un-optimized/logo.svg?\n}");
+
+/***/ }),
+
+/***/ "./src/style/sass/main.scss":
+/*!**********************************!*\
+  !*** ./src/style/sass/main.scss ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://ayoubnadirv1/./src/style/sass/main.scss?\n}");
 
 /***/ })
 
